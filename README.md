@@ -1,4 +1,4 @@
-# Concurrency Assignment - [Raiya]
+# Concurrency Assignment - [Khan Raiyan Ibne Reza]
 
 ## How to Run
 This assignment contains 4 independent parts implemented in Python.
