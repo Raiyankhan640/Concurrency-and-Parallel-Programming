@@ -91,7 +91,7 @@ if __name__ == "__main__":
     print(f"  Expected final value: {expected}")
     print(f"  Actual final value:   {result_without}")
     if result_without != expected:
-        print("  ⚠️  RACE CONDITION DETECTED: Result is incorrect")
+        print("  RACE CONDITION DETECTED: Result is incorrect")
     else:
         print("  Note: Result may occasionally be correct due to scheduler luck, but the code is unsafe.\n")
     
@@ -105,6 +105,6 @@ if __name__ == "__main__":
     print(f"  Expected final value: {expected}")
     print(f"  Actual final value:   {result_with}")
     if result_with == expected:
-        print("  ✅ Lock prevented race condition, result is correct.")
+        print("  Lock prevented race condition, result is correct.")
     else:
-        print("  ❌ Unexpected error occurred.")
+        print("  Unexpected error occurred.")
